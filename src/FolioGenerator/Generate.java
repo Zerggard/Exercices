@@ -24,7 +24,7 @@ public class Generate {
                         do {
                             folio = new Folio();
                             Scanner iso = new Scanner(System.in);
-                            System.out.println("Please write code iso from your country");
+                            System.out.println("If you want to use code ISO please write it otherwise press ENTER");
                             System.out.print("ISO..: ");
                             isoIncoming = iso.nextLine();
                             isoIncoming = isoIncoming.toUpperCase();

@@ -5,10 +5,7 @@ public class Iso31662Mexico {
 
     public static boolean isISOValid(String iso) {
         if(iso.isEmpty()) {
-            System.out.println("============================================================");
-            System.out.println("The iso is empty");
-            System.out.println("============================================================");
-            return false;
+            return true;
         }
         if(iso.length() > 3) {
             System.out.println("============================================================");
